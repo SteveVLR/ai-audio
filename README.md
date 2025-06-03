@@ -26,7 +26,6 @@ docker run -p 8501:8501 -p 8000:8000 accent-detector
 ```
 
 - The Streamlit web UI will be available at: http://localhost:8501
-- The FastAPI REST API will be available at: http://localhost:8000/analyze
 
 ## Using the REST API
 Send a POST request to `/analyze` with a JSON body:
