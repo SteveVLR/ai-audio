@@ -11,6 +11,8 @@ This project provides a simple web UI (Streamlit) and a REST API (FastAPI) to an
 
 ## Prerequisites
 - [Docker](https://www.docker.com/products/docker-desktop) installed on your system
+- I would reccomend a NVIDIA GPU with 12+ GB of VRAM for this
+- I used a 5090 but something like a 3090 or a 4070 should work.
 
 ## Build the Docker Image
 ```powershell
